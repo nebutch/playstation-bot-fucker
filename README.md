@@ -1,7 +1,7 @@
 # playstation-bot-fucker
 A bot based on Node/Puppeteer that will hit Walmart up for the goods
 
-This project is based on the excellent [Python bot by dkkocab]("https://github.com/dkkocab/WebSiteBot_PS5")
+This project is based on the excellent [Python bot by dkkocab](https://github.com/dkkocab/WebSiteBot_PS5)
 
 Use this to load the WalMart site and snag a PS5.
 
@@ -21,7 +21,7 @@ Use this to load the WalMart site and snag a PS5.
 - You can set a test endpoint in the **index.js** file to verify the bot works with an in-stock item: `const testEndpoint = "blah"` (default is set to a DS4 controller, but you might want to find something cheap if you want to test the full process)
 - I have run into bot traps frequently using this script. I have tried to circumvent this by using a `sleep()` method between some button presses but it might not be a perfect solution.
 - One issue that we might come across is that the PS5 may be added to the cart, then doesn't allow you to navigate to the cart in order to checkout. **I may need to add a contigency for this use case, so that the bot just tries to load the cart repeatedly instead of reloading the item page.**
-- Note that I have also added [dkkocab's]("https://github.com/dkkocab") CODE_OF_CONDUCT.md file. I expect any contributors to follow the same guidelines.
+- Note that I have also added [dkkocab's](https://github.com/dkkocab) CODE_OF_CONDUCT.md file. I expect any contributors to follow the same guidelines.
 
 ### DISCLAIMER
 - Not that it matters, but this project here was Frankensteined by another bot project that I had written, so it's a little messy. Feel free to clean it up and submit a PR.
