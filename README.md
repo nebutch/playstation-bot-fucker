@@ -6,7 +6,7 @@ This project is based on the excellent [Python bot by dkkocab](https://github.co
 Use this to load the WalMart site and snag a PS5.
 
 ### Usage
-- Be sure to be on Node v14+. Built this using latest LTS (14.15) at the time of writing.
+- Be sure to be on [Node v14+](https://nodejs.dev/learn/how-to-install-nodejs). Built this using latest LTS (14.15) at the time of writing.
 - Run `npm i`
 - Modify the **walmartConfig.js** file with your custom information (be sure to note comments in file - they are important)
 - Note the comment in the **walmartConfig.js** file - you can set up which PS5 version you want by setting the value of `endpoint` in the **index.js** file. Use `SITE.digital` (default) or `SITE.physical`.
